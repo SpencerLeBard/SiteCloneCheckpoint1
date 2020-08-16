@@ -95,8 +95,12 @@ ul{
 }
 
 @media only screen and (max-width: 480px) {
-  .big-card-row{
-    height: 100vh;
-  }
+  .pupper-img-row{
+    display: flex;
+    flex-direction: column-reverse;
+   
+    }
 }
+
+
 
