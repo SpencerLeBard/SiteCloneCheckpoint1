@@ -41,6 +41,20 @@ ul{
 .card1{
     position: absolute;
     bottom: 125;
-    transform: translateY(1%);
+    transform: translateY(50%);
     align-content: right;
 }
+
+.look-at-puppers-card{
+  bottom: 75;
+    transform: translateY(50%);
+    align-items: right;
+
+}
+
+@media (min-width:480px){
+  .gone-on-mobile{
+    display: block;
+  }
+}
+
