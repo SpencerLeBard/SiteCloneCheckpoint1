@@ -9,17 +9,17 @@ flex-direction: column;
  main{
    flex-grow: 1;
 } 
- 
+
 .hero-image{
   background-image: url(heropuppy.jpg) ;
-  height: 50vh;
+  height: 55vh;
   background-size: cover;
   background-position: center;
 }
 
 .puppy2 img{
   max-height: 50vh;
-  width: 55vh;
+  width: 40vh;
 }
 
 ul{
@@ -40,7 +40,7 @@ ul{
 
 .card1{
     position: absolute;
-    bottom: 125;
+    bottom: 90;
     transform: translateY(50%);
     align-content: right;
 }
@@ -52,9 +52,24 @@ ul{
 
 }
 
-@media (min-width:480px){
+.subtle-text{
+  color: black;
+}
+
+@media screen and (min-width:480px){
   .gone-on-mobile{
-    display: block;
+    display: none;
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .below-header-row{
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .subtle-text{
+    color: white;
+  }
+}
