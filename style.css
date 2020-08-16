@@ -38,27 +38,41 @@ ul{
   color: white;
 }
 
+.big-card{
+  height: 25vh;
+}
+
+.big-card-row{
+  height: 40vh;
+}
+
 .card1{
-    position: absolute;
-    bottom: 90;
-    transform: translateY(50%);
-    align-content: right;
+  position: absolute;
+  bottom: 90;
+  transform: translateY(50%);
+  align-content: right;
 }
 
 .look-at-puppers-card{
   bottom: 75;
-    transform: translateY(50%);
-    align-items: right;
-
+  transform: translateY(50%);
+  align-items: right;
+  
 }
 
 .subtle-text{
   color: black;
 }
 
+.puppers-unlimited-font{
+  font-family: 'Sacramento', cursive;
+}
+
+
 @media screen and (min-width:480px){
   .gone-on-mobile{
     display: none;
+    display: block;
   }
 }
 
@@ -73,3 +87,16 @@ ul{
     color: white;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .big-card-row{
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .big-card-row{
+    height: 100vh;
+  }
+}
+
